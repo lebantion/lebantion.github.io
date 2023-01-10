@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.b673ad2c.css",
-    "main.js": "/static/js/main.7d0c7c90.js",
+    "main.js": "/static/js/main.de751c9b.js",
     "static/js/787.71e672d5.chunk.js": "/static/js/787.71e672d5.chunk.js",
     "static/media/Window.png": "/static/media/Window.a858afc6b6f71aa74d47.png",
     "static/media/UNIX.png": "/static/media/UNIX.ad77c40c8530e6726abb.png",
     "static/media/character.png": "/static/media/character.bed3965dcfb0374bd81d.png",
     "static/media/Softdev.jpg": "/static/media/Softdev.aeecc6ace13df2e09924.jpg",
     "static/media/Kotlin.png": "/static/media/Kotlin.cd761d6f84d7bf8f9791.png",
+    "static/media/MySQL.png": "/static/media/MySQL.c2073db7c71dd084f5c7.png",
     "static/media/Ruby.png": "/static/media/Ruby.dea704605a4276eb0b02.png",
     "static/media/Instagram.png": "/static/media/Instagram.0963b7a591227164566c.png",
     "static/media/Selfie.jpeg": "/static/media/Selfie.0c0bcbecc062f8a1ed08.jpeg",
@@ -20,20 +21,23 @@
     "static/media/HtmlJsCss.png": "/static/media/HtmlJsCss.b7bcc96235225694b487.png",
     "static/media/osulogo.png": "/static/media/osulogo.bd284b33fe48dcb5022b.png",
     "static/media/LinkedIn.png": "/static/media/LinkedIn.8b89ce01929a419c5625.png",
+    "static/media/SQL.png": "/static/media/SQL.8c53f46599d600c84b79.png",
+    "static/media/Unity.png": "/static/media/Unity.9c733d600072bf0fc46c.png",
     "static/media/C.png": "/static/media/C.490f02498154a8809d02.png",
     "static/media/C++.png": "/static/media/C++.1240ce157b70fb399c6c.png",
     "static/media/Python.png": "/static/media/Python.2521052f690f06b7daed.png",
     "static/media/Csharp.png": "/static/media/Csharp.82739bedbdacc34c97a0.png",
     "static/media/Firebase.png": "/static/media/Firebase.9300477553d4bcce7da1.png",
+    "static/media/RubyRails.png": "/static/media/RubyRails.c87f032e560c7a8da82c.png",
     "static/media/Github.png": "/static/media/Github.987334e9f782cc505f25.png",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
     "main.b673ad2c.css.map": "/static/css/main.b673ad2c.css.map",
-    "main.7d0c7c90.js.map": "/static/js/main.7d0c7c90.js.map",
+    "main.de751c9b.js.map": "/static/js/main.de751c9b.js.map",
     "787.71e672d5.chunk.js.map": "/static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b673ad2c.css",
-    "static/js/main.7d0c7c90.js"
+    "static/js/main.de751c9b.js"
   ]
 }
