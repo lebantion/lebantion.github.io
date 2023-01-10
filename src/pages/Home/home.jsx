@@ -16,15 +16,18 @@ import Kotlinlogo from '../../assets/Kotlin.png';
 import Rubylogo from '../../assets/Ruby.png';
 import Pythonlogo from '../../assets/Python.png';
 import Htmllogo from '../../assets/HtmlJsCss.png';
+import SQL from '../../assets/SQL.png';
 
 import Eclipselogo from '../../assets/Eclipse.png';
 import Firelogo from '../../assets/Firebase.png';
 import Rubyminelogo from '../../assets/Rubymine.png';
-import Unitylogo from '../../assets/HtmlJsCss.png';
+import Unitylogo from '../../assets/Unity.png';
 import Unixlogo from '../../assets/UNIX.png';
 import Vslogo from '../../assets/VSCode.png';
 import Windowlogo from '../../assets/Window.png';
 import Gitlogo from '../../assets/Git.png';
+import Rails from '../../assets/RubyRails.png';
+import MySQL from '../../assets/MySQL.png'
 
 //Developing with Carousels (Bootstrap)
 const home = () => {
@@ -58,7 +61,7 @@ const home = () => {
                     </div>
                     <div className="col-md-6 mb-md-0 mb-3 fixed-right">
                         <h4 className="Intro text-uppercase">Intro.</h4>
-                        <p className="Intro align-center">My name is SeongRok Ha (Simon) who have been studying Computer Science and Enginnering (Software Development Specializing)
+                        <p className="Intro align-center">My name is SeongRok Ha (Simon) who have been studying Computer Science and Enginnering (Software Engineering Specializing)
                             in the United States. I am from South Korea and interested in Software Development. This website is using React, JavaScript, BootStrap and HTML/CSS</p>
                     </div>
                 </div>
@@ -67,19 +70,33 @@ const home = () => {
             <div className="row">
                 <div className="col-md-3 mb-md-0 mb-3 ">
                     <img src={Clogo} className="logo d-inline-block align-center" ></img>
+                    <h2>C</h2>
                     <img src={CPPlogo} className="logo d-inline-block align-center" ></img>
+                    <h2>C++</h2>
                 </div>
                 <div className="col-md-3 mb-md-0 mb-3 ">
-                    <img src={Rubyminelogo} className="logo d-inline-block align-center" ></img>
-                    <img src={Unitylogo} className="logo d-inline-block align-center" ></img>
-                </div>
-                <div className="col-md-3 mb-md-0 mb-3 ">
+                    <img src={Rubylogo} className="logo d-inline-block align-center" ></img>
+                    <h2>Ruby</h2>
                     <img src={Unixlogo} className="logo d-inline-block align-center" ></img>
-                    <img src={Vslogo} className="logo d-inline-block align-center" ></img>
+                    <h2>Unix</h2>
                 </div>
                 <div className="col-md-3 mb-md-0 mb-3 ">
-                    <img src={Csharplogo} className="logo d-inline-block align-center" ></img>
+                    <img src={Javalogo} className="logo d-inline-block align-center" ></img>
+                    <h2>Java</h2>
+                    <img src={Kotlinlogo} className="logo d-inline-block align-center" ></img>
+                    <h2>Kotlin</h2>
+                </div>
+                <div className="col-md-3 mb-md-0 mb-3 ">
                     <img src={Htmllogo} className="logo d-inline-block align-center" ></img>
+                    <h2>HTML/CSS/JS</h2>
+                    <img src={Csharplogo} className="logo d-inline-block align-center" ></img>
+                    <h2>C#</h2>
+                </div>
+                <div className="col-md-3 mb-md-0 mb-3 ">
+                    <img src={Pythonlogo} className="logo d-inline-block align-center" ></img>
+                    <h2>Python</h2>
+                    <img src={SQL} className="logo d-inline-block align-center" ></img>
+                    <h2>SQL</h2>
                 </div>
             </div>
 
@@ -87,19 +104,31 @@ const home = () => {
             <div className="row">
                 <div className="col-md-3 mb-md-0 mb-3 ">
                     <img src={Eclipselogo} className="logo d-inline-block align-center" ></img>
+                    <h2>Eclipse</h2>
                     <img src={Firelogo} className="logo d-inline-block align-center" ></img>
+                    <h2>FireBase</h2>
                 </div>
                 <div className="col-md-3 mb-md-0 mb-3 ">
-                    <img src={Javalogo} className="logo d-inline-block align-center" ></img>
-                    <img src={Kotlinlogo} className="logo d-inline-block align-center" ></img>
+                    <img src={Vslogo} className="logo d-inline-block align-center" ></img>
+                    <h2>Visual Stduio</h2>
+                    <img src={Unitylogo} className="logo d-inline-block align-center" ></img>
+                    <h2>Unity</h2>
                 </div>
                 <div className="col-md-3 mb-md-0 mb-3 ">
-                    <img src={Pythonlogo} className="logo d-inline-block align-center" ></img>
-                    <img src={Rubylogo} className="logo d-inline-block align-center" ></img>
+                    <img src={Rubyminelogo} className="logo d-inline-block align-center" ></img>
+                    <h2>Rubymine</h2>
+                    <img src={Rails} className="logo d-inline-block align-center" ></img>
+                    <h2>Ruby on Rails</h2>
                 </div>
                 <div className="col-md-3 mb-md-0 mb-3 ">
                     <img src={Windowlogo} className="logo d-inline-block align-center" ></img>
+                    <h2>Window</h2>
                     <img src={Gitlogo} className="logo d-inline-block align-center" ></img>
+                    <h2>Git</h2>
+                </div>
+                <div className="col-md-3 mb-md-0 mb-3 ">
+                    <img src={MySQL} className="logo d-inline-block align-center" ></img>
+                    <h2>MySQL</h2>
                 </div>
             </div>
         
