@@ -1,14 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Header from "./NavBar";
 import Footer from "./Footer";
 
-import Homepage from "./pages/Home/home";
-import Diplomapage from "./pages/Diploma/diploma";
-import Projectpage from "./pages/Projects/project";
-import Contactpage from "./pages/Contact/contact";
+import Homepage from "./pages/home/home";
+import Diplomapage from "./pages/diploma/diploma";
+import Projectpage from "./pages/projects/project";
+import Contactpage from "./pages/contact/contact";
 
 import {BrowserRouter as Router, Route, Link, Routes} from 'react-router-dom';
 
@@ -18,9 +17,9 @@ function App() {
       <Header />
       <Routes>
         <Route path='/' element={<Homepage />}/>
-        <Route path='/Projects' element={<Projectpage />}/>
-        <Route path='/Diploma' element={<Diplomapage />}/>
-        <Route path='/Contact' element={<Contactpage />}/>
+        <Route path='projects' element={<Projectpage />}/>
+        <Route path='diploma' element={<Diplomapage />}/>
+        <Route path='contact' element={<Contactpage />}/>
       </Routes>
       <Footer />
     </Router>

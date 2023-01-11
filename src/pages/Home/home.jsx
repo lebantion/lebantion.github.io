@@ -1,12 +1,13 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './home.css';
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 import Carousel from 'react-bootstrap/Carousel';
 import SoftDev from '../../assets/Softdev.jpg';
 import AppDev from '../../assets/Appdev.webp';
 import FullStack from '../../assets/FullStack.jpg';
 import selfie from '../../assets/Selfie.jpeg';
-import osulogo from '../../assets/osulogo.png';
 
 import Clogo from '../../assets/C.png';
 import CPPlogo from '../../assets/C++.png';
@@ -30,7 +31,10 @@ import Rails from '../../assets/RubyRails.png';
 import MySQL from '../../assets/MySQL.png'
 
 //Developing with Carousels (Bootstrap)
-const home = () => {
+const Home = () => {
+    useEffect(() => {
+        Aos.init({duration: 4000});
+    }, []);
     return (
         <div>
             <h1></h1>
@@ -47,16 +51,15 @@ const home = () => {
                 </Carousel.Item>
                 <Carousel.Item> <img className="d-block w-100" alt="First slide" src={FullStack}/>
                     <Carousel.Caption>
-                        <h3>Full-Stack Developoer</h3>
+                        <h3>Full-Stack Developer</h3>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
-            <h1> About Me </h1>
+            <h1 data-aos="slide-up" > About Me
             <div className="About text-center text-md-left">
                 <div className="row">
                     <div className="col-md-6 mt-md-0 mt-0">
-                        <h3 className="name"> SeongRok Ha (Simon) Ha</h3>
-                        <h3 className="school"> The Ohio State University <img src={osulogo} width="90" height="60"></img></h3>
+                        <h1 className="name"> SeongRok Ha (Simon) Ha</h1>
                         <img src={selfie} className="selfie d-inline-block align-center" ></img>
                     </div>
                     <div className="col-md-6 mb-md-0 mb-3 fixed-right">
@@ -66,7 +69,8 @@ const home = () => {
                     </div>
                 </div>
             </div>
-            <h1> Language </h1>
+            </h1>
+            <h1 data-aos="zoom-in"> Language
             <div className="row">
                 <div className="col-md-3 mb-md-0 mb-3 ">
                     <img src={Clogo} className="logo d-inline-block align-center" ></img>
@@ -99,8 +103,9 @@ const home = () => {
                     <h2>SQL</h2>
                 </div>
             </div>
+            </h1>
 
-            <h1> Tools </h1>
+            <h1 data-aos="zoom-out"> Tools
             <div className="row">
                 <div className="col-md-3 mb-md-0 mb-3 ">
                     <img src={Eclipselogo} className="logo d-inline-block align-center" ></img>
@@ -131,9 +136,9 @@ const home = () => {
                     <h2>MySQL</h2>
                 </div>
             </div>
-        
+            </h1>
         </div>
       );
 }
 
-export default home;
+export default Home;

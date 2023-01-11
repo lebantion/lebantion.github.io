@@ -1,4 +1,12 @@
-Card {
-    width: 20px;
-    height: 30px;
+.card {
+    margin-top: 15px;
+}
+
+img.card-img-middle {
+    align-self: flex-end;
+    margin-right: 5px;
+}
+
+div.Text, div.card-title {
+    color: black;
 }
