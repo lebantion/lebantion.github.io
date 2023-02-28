@@ -1,7 +1,7 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import Header from "./NavBar";
+import Header from "./Header";
 import Footer from "./Footer";
 
 import Homepage from "./pages/home/home";
@@ -17,9 +17,9 @@ function App() {
       <Header />
       <Routes>
         <Route path='/' element={<Homepage />}/>
-        <Route path='projects' element={<Projectpage />}/>
-        <Route path='diploma' element={<Diplomapage />}/>
-        <Route path='contact' element={<Contactpage />}/>
+        <Route path='/projects' element={<Projectpage />}/>
+        <Route path='/diploma' element={<Diplomapage />}/>
+        <Route path='/contact' element={<Contactpage />}/>
       </Routes>
       <Footer />
     </Router>
