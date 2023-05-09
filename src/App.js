@@ -6,7 +6,7 @@ import Footer from "./Footer";
 
 import Homepage from "./pages/home/Home";
 import Diplomapage from "./pages/diploma/Diploma";
-import Projectpage from "./pages/projects/Proejct";
+import Projectpage from "./pages/projects/Project";
 import Contactpage from "./pages/contact/Contact";
 
 import {BrowserRouter as Router, Route, Link, Routes} from 'react-router-dom';
