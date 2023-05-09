@@ -1,7 +1,7 @@
 import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
-import './project.css';
+import './Project.css';
 import logo from '../../assets/project.png'
 
 import Aos from "aos";
