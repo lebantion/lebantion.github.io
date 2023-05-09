@@ -4,10 +4,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from "./Header";
 import Footer from "./Footer";
 
-import Homepage from "./pages/home/home";
-import Diplomapage from "./pages/diploma/diploma";
-import Projectpage from "./pages/projects/project";
-import Contactpage from "./pages/contact/contact";
+import Homepage from "./pages/home/Home";
+import Diplomapage from "./pages/diploma/Diploma";
+import Projectpage from "./pages/projects/Proejct";
+import Contactpage from "./pages/contact/Contact";
 
 import {BrowserRouter as Router, Route, Link, Routes} from 'react-router-dom';
 
