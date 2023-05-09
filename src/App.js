@@ -6,7 +6,7 @@ import Footer from "./Footer";
 
 import Homepage from "./pages/Home/home";
 import Diplomapage from "./pages/Diploma/diploma";
-import Projectpage from "./pages/Projects/project";
+import Projectpage from "./pages/Project/project";
 import Contactpage from "./pages/Contact/contact";
 
 import {BrowserRouter as Router, Route, Link, Routes} from 'react-router-dom';
@@ -17,7 +17,7 @@ function App() {
       <Header />
       <Routes>
         <Route path='/' element={<Homepage />}/>
-        <Route path='/projects' element={<Projectpage />}/>
+        <Route path='/project' element={<Projectpage />}/>
         <Route path='/diploma' element={<Diplomapage />}/>
         <Route path='/contact' element={<Contactpage />}/>
       </Routes>
